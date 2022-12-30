@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Oregano', cursive;
+    background-color: #191A1C;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.right img{
+    width: 630px;
+}
+
+.title_container{
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 116px;
+    color: #FFFFFF;
+}
+
+.prg p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    color: #FFFFFF;
+    font-family: 'Red Hat Display';
+    width: 540px;
+}
+
+.btn{
+    margin-top: 40px;
+}
+
+
+
+.btn a{
+    background: linear-gradient(180deg, #ED3A43 0%, #B32931 100%);
+    border-radius: 16px;
+    padding: 14px 75px;
+    font-family: 'Red Hat Display';
+}
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+  }
+
+  .snowflake {
+    position: fixed;
+    background-color: #FFFFFF;
+    user-select: none;
+    z-index: 1000;
+    pointer-events: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+
+@media(max-width:1024px){
+    .right img {
+        width: 100%;
+    }
+
+    .container{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .title_container {
+        font-size: 50px;
+    }
+
+    .prg p {
+        width: 470px;
+        font-size: 16px;
+    }
+}
+
+
+@media(max-width:768px){
+    .container{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        min-height: 0;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .prg p {
+       text-align: center;
+    }
+
+    .title_container {
+       text-align: center;
+    }
+
+    .btn{
+        text-align: center;
+    }
+
+    .btn a {
+        padding: 14px 160px;
+    }
+}
+
+
+@media(max-width:480px){
+    .prg p {
+        width: 390px;
+        font-size: 14px;
+    }
+
+    .btn a{
+        width: 100%;
+        display: block;
+    }
+
+    .title_container {
+        font-size: 35px;
+    }
+}
+
+
+@media(max-width:415px){
+    .container{
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width:390px){
+    .btn a {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        padding: 14px 90px;
+    }
+
+    .prg p {
+        width: 350px;
+        font-size: 13px;
+    }
+}
+
+@media(max-width:320px){
+    .container{
+        margin-top: 50px;
+    }
+
+    .prg p {
+        width: 300px;
+        font-size: 12px;
+    }
+}
