@@ -190,4 +190,11 @@ a{
         width: 300px;
         font-size: 12px;
     }
+    
+    .btn a {
+    width: 84%;
+    display: block;
+    margin: 0 auto;
+    padding: 14px;
+}
 }
