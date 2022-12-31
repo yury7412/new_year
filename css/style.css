@@ -9,6 +9,8 @@ body{
     font-family: 'Oregano', cursive;
     background-color: #191A1C;
     color: white;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 a{
