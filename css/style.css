@@ -167,6 +167,15 @@ a{
     }
 }
 
+@media(max-width:379px){
+    .btn a {
+        width: 84%;
+        display: block;
+        margin: 0 auto;
+        padding: 14px 90px;
+     }
+}
+
 @media(max-width:320px){
     .container{
         margin-top: 50px;
