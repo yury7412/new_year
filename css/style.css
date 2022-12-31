@@ -149,6 +149,11 @@ a{
 }
 
 @media(max-width:396px){
+    
+     .container{
+        margin-top: 50px;
+    }
+    
     .btn a {
         width: 100%;
         display: block;
