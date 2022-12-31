@@ -9,8 +9,6 @@ body{
     font-family: 'Oregano', cursive;
     background-color: #191A1C;
     color: white;
-    padding-left: 25px;
-    padding-right: 25px;
 }
 
 a{
@@ -129,7 +127,7 @@ a{
 
 @media(max-width:480px){
     .prg p {
-        width: 390px;
+        width: auto;
         font-size: 14px;
     }
 
@@ -150,7 +148,7 @@ a{
     }
 }
 
-@media(max-width:390px){
+@media(max-width:396px){
     .btn a {
         width: 80%;
         display: block;
